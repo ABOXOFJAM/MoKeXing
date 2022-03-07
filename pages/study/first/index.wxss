@@ -1,0 +1,36 @@
+
+.item{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+}
+.sitem{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logo{
+  margin: 50rpx;
+  width: 128rpx;
+  height: 128rpx;
+  border-radius: 50%;
+  background-color: #000;
+}
+.item text{
+  margin-left: 6rpx;
+}
+.line{
+  width:90%;
+  height:2rpx;
+  background:#aaa;
+}
+.back{
+  position: absolute;
+  right: 0;
+  margin-right: 76rpx;
+  width: 48rpx;
+  height: 48rpx;
+
+}

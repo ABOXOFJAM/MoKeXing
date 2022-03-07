@@ -1,0 +1,14 @@
+<!--pages/exam/index.wxml-->
+<view class="mContainer">
+  <!-- 已扫描过的视频 -->
+  <swiper>
+    <swiper-item class="sitem" bindtap="toVideo">
+      <view class="item">
+        <text>题目一</text>
+        <image class="back" src="/static/icon_back.png"></image>
+      </view>
+      <!-- 横线 -->
+      <view class="line"></view>
+    </swiper-item>
+  </swiper>
+</view>

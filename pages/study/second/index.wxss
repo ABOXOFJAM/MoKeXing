@@ -1,0 +1,9 @@
+/* pages/study/second/index.wxss */
+.mContainer{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+.mContainer video{
+  width: 100%;
+}

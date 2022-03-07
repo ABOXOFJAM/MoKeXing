@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/shop/first/index",
+    "pages/study/first/index",
+    "pages/study/second/index",
+    "pages/exam/first/index"
+    
+
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/study/first/index",
+        "text": "学习",
+        "iconPath": "static/icon_first.png"
+      },
+      {
+        "pagePath": "pages/exam/first/index",
+        "text": "测试",
+        "iconPath": "static/icon_third.png"
+      },
+      {
+        "pagePath": "pages/shop/first/index",
+        "text": "商店",
+        "iconPath": "static/icon_third.png"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#B4C790",
+    "navigationBarTitleText": "墨客行",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}

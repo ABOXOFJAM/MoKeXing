@@ -1,0 +1,4 @@
+<!--视频播放页-->
+<view class="mContainer">
+<video src="{{url}}"></video>
+</view>

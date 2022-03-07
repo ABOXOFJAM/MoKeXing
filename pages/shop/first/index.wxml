@@ -1,0 +1,32 @@
+<!--pages/third/index.wxml-->
+<view class="mContainer">
+  <!-- 顶部个人信息 -->
+  <view class="top">
+    <view class="person">
+      <image>头像</image>
+      <text>小李白</text>
+    </view>
+    <view class="right">
+      <view class="icon">
+        <image>反馈</image>
+        <image>设置</image>
+      </view>
+      <view class="coin">
+        <text class="num">0</text>
+        <text class="glod">金币数</text>
+      </view>
+    </view>
+  </view>
+  <!-- 下方商品列表 -->
+  <swiper>
+<swiper-item class="sitem" wx:for="{{List}}" >
+<view class="item">
+<image class="logo" src=""></image>
+<text>{{item.text}}</text>
+<image class="back" src="/static/icon_back.png" ></image>
+</view>
+<!-- 横线 -->
+<view class="line"></view>
+</swiper-item>
+</swiper>
+</view>
